@@ -418,8 +418,6 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -g0 -DNDEBUG -fmodulo-sched -fivopts \
 		   -fmodulo-sched-allow-regmoves \
 		   -fno-asynchronous-unwind-tables \
-		   -march=armv8-a+crc+crypto \
-		   -mcpu=cortex-a53+crypto \
 		   -mtune=cortex-a53 \
 		   -fno-delete-null-pointer-checks \
 		   -Wno-deprecated-declarations \
